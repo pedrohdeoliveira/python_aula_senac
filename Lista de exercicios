@@ -1,0 +1,61 @@
+'''
+# Ex.1#
+
+n1 = int(input("digite um numero : "))
+n2 = int(input("digite outro numero : "))
+soma = n1+n2
+print("o resultado da soma é :", soma )
+
+#Ex. 2#
+
+n1 = int(input("digite o primeiro numero : "))
+n2 = int(input ("digite outro numero : "))
+soma = n1+n2
+print("o resultado da soma é :", soma)
+subtracao = n1-n2
+print("o resultado da subtrção é :", subtracao)
+multiplicacao = n1*n2
+print("o resultado da multiplicação é :" , multiplicacao)
+divisao =n1/n2 
+print("o resultado da divisão é:" , divisao)
+'''
+#Ex. 3#
+'''
+n1 = int(input("Digite a distância percorrida : "))
+n2 = int(input("Digte o total de combustivel : "))
+media = n1/n2 
+print("A média de consumo é :", media)
+
+'''
+#Ex.4
+'''
+nome = input("Digite o nome do vendedor : ")
+salariofixo = float(input("Digte o salário fixo : "))
+totalVendasmes = float(input ("Digite o total de vendas efetuadas no mes : "))
+comissao = totalVendasmes * 0.15
+print ("nome : ", nome)
+print ("Salário :", salariofixo)
+print ("salario total: ", salariofixo + comissao)
+
+'''
+#Ex. 5
+'''
+nota1 = float(input("Digite o primeiro nota :"))
+nota2 = float(input("Digite o segunda nota :"))
+nota3 = float(input("Digite o terceira nota :"))
+nome = input("Digite o nome do aluno : ")
+media = (nota1 + nota2 + nota3) / 3
+print(media)
+if(media) >=7:
+    print(nome,"aprovado") 
+elif media<5:
+    print(nome,"Reprovado")
+else:
+    print(nome,"apavorado") 
+
+'''
+
+#Ex. 6
+
+n1 = 0
+n2 = 1
